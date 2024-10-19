@@ -70,7 +70,7 @@ function Login() {
         </span>
         <span className="block w-1/2 h-0.5 bg-zinc-300 dark:bg-zinc-600"></span>
       </div>
-      <div className="flex items-center justify-center gap-4 mt-8">
+      <div className="flex items-center justify-center flex-col sm:flex-row gap-3 sm:gap-4 mt-8">
         <button className="bg-zinc-100 dark:bg-zinc-800 shadow-sm w-full py-4 rounded-md  dark:hover:bg-zinc-700 font-semibold tracking-wider hover:bg-zinc-200 transition-all flex items-center justify-center gap-2">
           <Icon icon="uil:google" className="size-6" />
           Google
