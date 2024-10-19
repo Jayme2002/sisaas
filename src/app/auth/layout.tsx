@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
-import cover from "./cover.jpg";
+import cover from "@/assets/cover.jpg";
 import React from "react";
 
 function AuthLayout({ children }: { children: React.ReactNode }) {
