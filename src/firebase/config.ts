@@ -5,13 +5,13 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAo6frBQVidKaNrzGheJeE8uXadiRWRU0Q",
-  authDomain: "lifeforge-c4f74.firebaseapp.com",
-  projectId: "lifeforge-c4f74",
-  storageBucket: "lifeforge-c4f74.appspot.com",
-  messagingSenderId: "107308569951",
-  appId: "1:107308569951:web:99c7c02d911d4ea760d2ea",
-  measurementId: "G-SKCHFMJSJR"
+  apiKey: "AIzaSyCPGYLAOnScfz1ei2thhjySZAESXofSOn0",
+  authDomain: "esigner-dd386.firebaseapp.com",
+  projectId: "esigner-dd386",
+  storageBucket: "esigner-dd386.appspot.com",
+  messagingSenderId: "574902167447",
+  appId: "1:574902167447:web:9b4f6f79da63b0c42546d2",
+  measurementId: "G-CFMHHSCMJ6"
 };
 
 

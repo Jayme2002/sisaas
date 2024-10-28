@@ -37,7 +37,7 @@ export default function DashboardLayout({
                 <div className="flex items-center gap-3">
                   <Icon icon="mdi:anvil" className="size-8 text-blue-500" />
                   <h1 className="text-xl font-semibold">
-                    Lifeforge
+                    E-Signer
                     <span className="text-blue-500 text-xl pl-0.5">.</span>
                   </h1>
                 </div>
@@ -85,81 +85,54 @@ export default function DashboardLayout({
               </search>
               <div className="mt-6 flex flex-col gap-1">
                 <Link
-                  href="/dashboard"
+                  href="/home"
                   className={`flex items-center gap-3 shadow-sm tracking-wide p-3 text-zinc-700 font-medium hover:bg-zinc-200/50 transition-all rounded-md ${
-                    pathname === "/dashboard" ? "bg-zinc-200/70" : ""
+                    pathname === "/home" ? "bg-zinc-200/70" : ""
                   }`}
                 >
-                  <Icon icon="tabler:dashboard" className="size-6" />
-                  Dashboard
+                  <Icon icon="tabler:home" className="size-6" />
+                 Home
                 </Link>
                 <h3 className="mt-4 mb-2 text-zinc-400/70 font-medium tracking-wide">
-                  Productivity
+                  Dashboard
                 </h3>
                 <Link
-                  href="/dashboard/productivity/projects"
+                  href="/home/dashboard/agreements"
                   className={`flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md ${
-                    pathname === "/dashboard/productivity/projects" ? "bg-zinc-200/70" : ""
+                    pathname === "/home/dashboard/agreements" ? "bg-zinc-200/70" : ""
                   }`}
                 >
                   <Icon icon="tabler:clipboard" className="size-6" />
-                  Projects
+                  Agreements
                 </Link>
                 <Link
-                  href="/dashboard/productivity/calendar"
+                  href="/home/dashboard/templates"
                   className={`flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md ${
-                    pathname === "/dashboard/productivity/calendar" ? "bg-zinc-200/70" : ""
+                    pathname === "/home/dashboard/templates" ? "bg-zinc-200/70" : ""
                   }`}
                 >
                   <Icon icon="tabler:calendar" className="size-6" />
-                  Calendar
+                  Templates
                 </Link>
                 <Link
-                  href="/dashboard/productivity/pinboard"
+                  href="/home/dashboard/reports"
                   className={`flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md ${
-                    pathname === "/dashboard/productivity/pinboard" ? "bg-zinc-200/70" : ""
+                    pathname === "/home/dashboard/reports" ? "bg-zinc-200/70" : ""
                   }`}
                 >
                   <Icon icon="tabler:pin" className="size-6" />
-                  Pinboard
+                  Reports
                 </Link>
                 <Link
-                  href="/dashboard/productivity/tasks"
+                  href="/home/dashboard/admin"
                   className={`flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md ${
-                    pathname === "/dashboard/productivity/tasks" ? "bg-zinc-200/70" : ""
+                    pathname === "/home/dashboard/admin" ? "bg-zinc-200/70" : ""
                   }`}
                 >
                   <Icon icon="tabler:list" className="size-6" />
-                  Tasks
+                  Admin
                 </Link>
-                <Link
-                  href="/dashboard/productivity/time-tracker"
-                  className={`flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md ${
-                    pathname === "/dashboard/productivity/time-tracker" ? "bg-zinc-200/70" : ""
-                  }`}
-                >
-                  <Icon icon="tabler:clock" className="size-6" />
-                  Time Tracker
-                </Link>
-                <h3 className="mt-4 mb-2 text-zinc-400/70 font-medium tracking-wide">
-                  Storage
-                </h3>
-                <div className="flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md">
-                  <Icon icon="tabler:file" className="size-6" />
-                  Files
-                </div>
-                <div className="flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md">
-                  <Icon icon="tabler:photo" className="size-6" />
-                  Photos
-                </div>
-                <div className="flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md">
-                  <Icon icon="tabler:video" className="size-6" />
-                  Videos
-                </div>
-                <div className="flex items-center gap-3 tracking-wide p-3 text-zinc-500 hover:bg-zinc-200/50 transition-all rounded-md">
-                  <Icon icon="tabler:music" className="size-6" />
-                  Audio
-                </div>
+                
               </div>
             </div>
             <footer className="p-4 text-zinc-400 text-sm">
